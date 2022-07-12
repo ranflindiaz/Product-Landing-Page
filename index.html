@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo" id="header-img">
+            </a>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#feactures">Feactures</a></li>
+                <li><a class="nav-link" href="#contact">How it Works</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                <li><a class="nav-link" href="#video">Video</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <main>
+            <div id="contact">
+                <h3 class="contact-header">Handcrafted, home-made masterpieces</h3>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input type="email" id="email" name="email" placeholder="Enter your email address"/> 
+                    <div><input id="submit" type="submit" value="Get Started"></div>
+                </form>
+            </div>
+            
+                <section id="feactures">
+                    <div class="feacture-set">
+                        <div class="icon"><i class="fa fa-3x fa-fire" ></i></div>
+                        <div class="feacture-wrap">
+                            <h3 class="feacture-header">Premium Materials</h3>
+                            <p class="feacture-text">
+                                Premium Materials
+                                Our items use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                        </div>
+                    </div>
+                    <div class="feacture-set">
+                        <div class="icon"><i class="fa fa-3x fa-truck" ></i></div>
+                        <div class="feacture-wrap">
+                            <h3 class="feacture-header">Fast Shipping</h3>
+                        <p class="feacture-text">We make sure you recieve your items as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                        </div>
+                    
+                    </div>
+                    <div class="feacture-set">
+                        <div class="icon"><i class="fa fa-3x fa-battery-full"></i></div>
+                        <div class="feacture-wrap">
+                            <h3 class="feacture-header">Quality Assurance</h3>
+                        <p class="feacture-text">For every purchase you make, we will ensure there are no damages or faults and we will check every items before its shipped.</p>
+                        </div>
+                        
+                    </div>
+                </section>
+                <section id="video-section">
+                    <iframe id="video" src="https://www.youtube.com/embed/pMyQ3f3_Mdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </section>
+                <section id="pricing">
+                    <div class="item">
+                        <h3 class="item-header pbpu">STEERING WHEEL</h3>
+                        <p class="item-price pbpu">$599</p>
+                        <p class="item-text pbpu">Give yourself a better opportunity to hit your shifter paddles the first time around and add some style to the cabin of your vehicle at the same time.</p>
+                        <div><button id="btn-select" >Select</button></div>
+                        
+                    </div>
+                    <div class="item">
+                        <h3 class="item-header pbpu">COLD AIR INTAKE</h3>
+                        <p class="item-price pbpu">$349</p>
+                        <p class="item-text pbpu">Replaces the restrictive OEM intake system. Improves the throttle response, horsepower, and torque. Includes everything for a complete installation success.</p>
+                        <div><button id="btn-select" >Select</button></div>
+                    </div>
+                    <div class="item">
+                        <h3 class="item-header pbpu">BREMBO BRAKE SYSTEMS</h3>
+                        <p class="item-price pbpu">$2,011</p>
+                        <p class="item-text pbpu">Front location, Large 4-piston monoblock calibers, Cross-drilled rotors, Improves the stopping performance</p>
+                        <div><button id="btn-select" >Select</button></div>
+                    </div>
+                </section>
+
+        </main>
+        <footer>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <p class="copy">Copyright 2016, Original Parts</p>
+        </footer>
+    </div>
+  </body>
+</html>
